@@ -20,7 +20,7 @@
 
         "psr-4": {
 
-            "szh\\": "src/"
+            "szh\\": "szh-error-handler/src/"
 
         }
 
