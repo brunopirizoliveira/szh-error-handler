@@ -7,14 +7,14 @@ class HandleError {
 
     private $dict;
 
-    public function __construct() {
-        $this->dict = (new Dictionary())->getErrors();
+    public function __construct($jsonFile) {
+        // $this->dict = (new Dictionary())->getErrors();
+        $this->dict = $jsonFile;
     }
 
     public function handleError($serverError)
     {
-        $handledError = $this->dict[$serverError];
-        
+        $handledError = $this->dict[$serverError];        
 
         header("Content-Type: application/json");
         return json_encode($handledError);  

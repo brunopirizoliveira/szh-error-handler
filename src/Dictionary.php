@@ -2,8 +2,9 @@
 
 namespace SZ\Utils\Dictionary;
 
-class Dictionary {
-    
+class Dictionary
+{
+
     private $errors = [
         "400" => ["error" => "Bad Request", "message" => "message", "traceId" => "traceId", "context" => "context", "code" => "code", "subCode" => "subcode"],
         "401" => ["error" => "Unauthorized", "message" => "message", "traceId" => "traceId", "context" => "context", "code" => "code", "subCode" => "subcode"],
@@ -35,5 +36,4 @@ class Dictionary {
     {
         return $this->errors;
     }
-
 }
