@@ -1,7 +1,6 @@
 <?php
 
 namespace SZ\HandleError;
-use SZ\Utils\Dictionary\Dictionary;
 
 class HandleError {
 
