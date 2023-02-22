@@ -20,7 +20,8 @@
 
         "psr-4": {
 
-            "szh\\": "szh-error-handler/src/"
+            "szh\\": "szh-error-handler/src/",
+            "classmap": ["src/", "szh-error-handler/", "HandleError.php"]
 
         }
 
