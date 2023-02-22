@@ -1,6 +1,6 @@
 <?php
 
-namespace SZH\HandleError;
+namespace SZH\SZHHandleError;
 
 class HandleError {
 
