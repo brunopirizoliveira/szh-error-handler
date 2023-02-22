@@ -20,7 +20,7 @@
 
         "psr-4": {
 
-            "SZHLibrary\\HandlerError\\": "src/HandleError.php"
+            "szh\\szh-error-handler\\": "src/HandleError.php"
 
         }
 
